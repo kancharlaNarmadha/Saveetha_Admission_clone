@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-image: url('zoo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 10vh;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  backdrop-filter: (2px);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.left-content {
+  flex: 1;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.tnea {
+  font-size: 18px;
+  background: #fff;
+  color: #000;
+  padding: 6px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.left-content h2 {
+  font-size: 36px;
+  color: #ffea00;
+  margin-bottom: 10px;
+}
+
+.left-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.left-content .yellow-btn {
+  margin-top: 40px;
+  background: #ffea00;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right-form {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box {
+  background: rgba(0,0,0,0.3);
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.form-box h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.form-box input[type="text"],
+.form-box input[type="email"],
+.form-box input[type="tel"],
+.form-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+.double-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.double-input input {
+  flex: 1;
+}
+
+.captcha {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.captcha img {
+  height: 40px;
+  border-radius: 4px;
+}
+
+.checkbox-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.apply-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #f5c518;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-text {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+  color: #ccc;
+}
+
+.login-text a {
+  color: #ffd700;
+  text-decoration: none;
+}
