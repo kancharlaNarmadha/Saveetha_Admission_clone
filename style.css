@@ -7,13 +7,14 @@
 }
 
 body {
-  background-image: url('zoo.png');
+  background-image: url('bg.png');
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  min-height: 10vh;
+  background-position: right center;  
+  min-height: 100vh;                  
   color: white;
 }
+
 
 .main-container {
   display: flex;
@@ -32,8 +33,22 @@ body {
 }
 
 .logo {
-  width: 300px;
+  width: 500px;
   margin-bottom: 20px;
+}
+.promo {
+  margin-top: 80px;
+}
+
+.promo h2 {
+  font-size: 50px;
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+.promo p {
+  font-size: 24px;
+  margin: 10px 0;
 }
 
 .tnea {
@@ -71,9 +86,11 @@ body {
 .right-form {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end; 
   align-items: center;
+  padding-right: 50px; 
 }
+
 
 .form-box {
   background: rgba(0,0,0,0.3);
