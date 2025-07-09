@@ -50,8 +50,7 @@ Maintain readability and layout integrity on both desktop and mobile.
 <body>
   <div class="main-container">
     <div class="left-content">
-      <img src="flexy.png" alt="Logo" class="logo" />
-      <p class="tnea">TNEA CODE    <strong>1216</strong></p>
+      <img src="tn.png" alt="Logo" class="logo" />
       <h2>INDUSTRY 5.0</h2>
       <p>Ready Curriculum Imparting<br><strong>21st Century Skills</strong></p>
       <button class="yellow-btn">Apply Now <span>▼</span></button>
@@ -95,6 +94,7 @@ Maintain readability and layout integrity on both desktop and mobile.
 </body>
 </html>
 
+
 ```
 
 ## CSS Code:
@@ -132,8 +132,9 @@ body {
 }
 
 .logo {
-  width: 100px;
+  width: 500px;
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.3) ;
 }
 
 .tnea {
@@ -256,11 +257,12 @@ body {
   text-decoration: none;
 }
 
+
 ```
 
 
 ## Output:
-![image](https://github.com/user-attachments/assets/d55ffe62-ae40-475c-a94b-4bbee182233a)
+![image](https://github.com/user-attachments/assets/b0960c79-d34f-4d12-806f-e67aa9a74ad3)
 
 
 ## Result:
