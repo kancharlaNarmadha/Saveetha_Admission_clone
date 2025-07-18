@@ -262,7 +262,8 @@ body {
 
 
 ## Output:
-![image](https://github.com/user-attachments/assets/b0960c79-d34f-4d12-806f-e67aa9a74ad3)
+<img width="1913" height="908" alt="image" src="https://github.com/user-attachments/assets/56146937-4ff0-4053-8a49-a4c1db40d0a8" />
+
 
 
 ## Result:
